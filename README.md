@@ -89,6 +89,18 @@ The API will be available at `http://localhost:8080`. You can verify it is runni
 
 Use vite to scaffold out a new frontend application in its own directory here at the project root. Remember to set the correct TypeScript version from the lecture video if you have issues!
 
+### Step 6: Start the React Client
+
+From the project root, with the API already running on port 8080:
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+The app is served at `http://localhost:5173` and talks to the API at `http://localhost:8080`. Navigation and updates stay on that page; nothing requires a full reload.
+
 ---
 
 ## API Reference
